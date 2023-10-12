@@ -40,10 +40,96 @@ header ul li a.alphacolor{
 }
 /* Header Section End */
 
-/* Booking Form Section Start */
-.beachimg img{
+/* Banner Section Start */
+.banner{
     width: 100%;
-    height: 550px;
-    padding: 0px 1px;
+    height: 650px;
+    padding: 0px 125px;
+    background: url(../img/beach.jpg);
+    background-size: 100% 100%;
+    position: relative;
 }
-/* Booking Form Section End */
+.banner form{
+    width: 84%;
+    height: 130px;
+    bottom: 25px;
+    padding: 2px 8px;
+    display: flex;
+    background: #5c327a;
+    align-items:center;
+    position: absolute;
+}
+.banner form button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background: #5f208c;
+    color: #fff;
+    font-size: 500;
+}
+.banner form button.active{
+    background: #F43041;
+}
+.banner form label{
+    display: none;
+}
+.banner form .serachForm input,
+.banner form .serachForm select{
+    width: 200px;
+    height: 35px;
+    margin-right: 3px;
+}
+   
+
+.banner form .serachForm{
+    margin-top: 8px;
+}
+.banner form button.smt{
+   height: 90px;
+   width: 90px;
+   border-radius: 50%;
+   margin-left: 60px;
+   background: #FE546B;
+}
+.banner form .formFilter select{
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    border: none;
+    background: #5c327a;
+    color: #fff;
+}
+.banner form .formFilter input.one{
+    width: 15px;
+    height: 15px;
+    padding: 2px 2px 0px 0px;
+    margin-top: 20px;
+    appearance: none;
+    border: 3px solid #fff;
+}
+.banner form .formFilter input.two{
+    width: 15px;
+    height: 15px;
+    padding: 2px 2px 0px 0px;
+    margin-top: 20px;
+    appearance: none;
+    border: 3px solid #fff;
+}
+.banner form .formFilter label .custom{
+    color: #fff;
+}
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+/* Banner Form Section End */
