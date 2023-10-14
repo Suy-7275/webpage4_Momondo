@@ -52,7 +52,7 @@ header ul li a.alphacolor{
 .banner form{
     width: 84%;
     height: 130px;
-    bottom: 25px;
+    bottom: 18px;
     padding: 2px 8px;
     display: flex;
     background: #5c327a;
@@ -92,7 +92,7 @@ header ul li a.alphacolor{
    background: #FE546B;
 }
 .banner form .formFilter select{
-    width: 200px;
+    width: 220px;
     height: 30px;
     margin-top: 3px;
     border: none;
@@ -104,6 +104,7 @@ header ul li a.alphacolor{
     height: 15px;
     padding: 2px 2px 0px 0px;
     margin-top: 20px;
+    margin-left: 10px;
     appearance: none;
     border: 3px solid #fff;
 }
@@ -112,24 +113,29 @@ header ul li a.alphacolor{
     height: 15px;
     padding: 2px 2px 0px 0px;
     margin-top: 20px;
+    margin-left: 10px;
     appearance: none;
     border: 3px solid #fff;
 }
-.banner form .formFilter label .custom{
+span{
     color: #fff;
+    padding: 0px 10px;
 }
 
-    
-
-
-
-
-    
-
-
-
-
-
-
-
 /* Banner Form Section End */
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
