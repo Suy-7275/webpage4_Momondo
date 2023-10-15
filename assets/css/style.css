@@ -99,30 +99,188 @@ header ul li a.alphacolor{
     background: #5c327a;
     color: #fff;
 }
-.banner form .formFilter input.one{
+.banner form .formFilter input[type="checkbox"]{
     width: 15px;
     height: 15px;
     padding: 2px 2px 0px 0px;
     margin-top: 20px;
     margin-left: 10px;
-    appearance: none;
-    border: 3px solid #fff;
+    border: 5px solid #fff;
 }
-.banner form .formFilter input.two{
-    width: 15px;
-    height: 15px;
-    padding: 2px 2px 0px 0px;
-    margin-top: 20px;
-    margin-left: 10px;
-    appearance: none;
-    border: 3px solid #fff;
-}
+
 span{
     color: #fff;
     padding: 0px 10px;
 }
 
 /* Banner Form Section End */
+/* Fun Section Start */
+.fun{
+    width: 100%;
+    height: 430px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/fun.jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.fun ul{
+    list-style: none;
+    display: flex;
+    padding-top: 85px;
+    justify-content: space-between;
+
+}
+.fun ul li{
+    width: 180px;
+    height: 180px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    background: #1A1718;
+}
+.fun ul li b{
+    font-size: 40px;
+    color: #fff;
+}
+/* /Fun Section End */
+
+/* Newsletter Section Start */
+
+.newsletter{
+    width: 100%;
+    height: 400px;
+    padding: 50px 20px;
+    background:linear-gradient(rgba(55, 11, 233, 0.6),rgba(55, 11, 233, 0.6),rgba(55, 11, 233, 0.6)),url(../img/plane.jpg);
+    background-size: 100% 100%;
+}
+.newsletter h2{
+    padding: 90px 0px 60px 0px;
+    font-size: 30px;
+    color: #fff;
+}
+.newsletter label{
+    display: none;
+}
+.subscription input[type="email"],
+.subscription button{
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+.subscription input[type="email"]{
+    width: 400px;
+    height: 40px;
+    border: 5px solid #fff;
+}
+.subscription button{
+    width: 200px;
+    height: 40px;
+    color: #5c327a;
+    font-weight: 600;
+}
+.newsletter p{
+    color: #fff;
+}
+/* /Newsletter Section End */
+
+/* Destination Section Start */
+.destination{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: #201631;
+}
+.destination h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.destination ul{
+    display: grid;
+    grid-gap: 30px 20px;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 400px 400px;
+}
+.destination ul li{
+    border-radius: 5px;
+    list-style: none;
+    border: 5px solid#fff;
+    background-color: #fff;
+}
+li b{
+    color: #ef0f0f;
+    
+    
+}
+li p{
+    font-weight: 600;
+}
+/* /Destination Section End */
+/* Estimate Section Start */
+.estimate{
+    color: #fff;
+    width: 100%;
+    height: 350px;
+    padding: 50px 125px;
+   background: #654DAD;
+   font-size: 40px;
+}
+.estimate h2{
+    font-size: 30px;
+    
+}
+.line hr{
+    margin-top: 30px;
+    width: 100px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.estimatecalculation label{
+    display: none;
+}
+.estimatecalculation input[type="date"], input[type="email"]{
+    width: 240px;
+    height: 50px;
+    text-align: center;
+}
+.estimatecalculation select{
+    width: 240px;
+    height: 50px;
+    font-weight: 600;
+}
+.estimatecalculation button{
+    width: 240px;
+    height: 50px;
+    font-weight: 600;
+    background: #FD9101;
+
+}
+
+    
+    
+
+/* /Estimate Section End */
+
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
 
 
     
